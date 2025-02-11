@@ -59,13 +59,21 @@ h2 {
     color: #bebebe;
 }
 
-button {
+button,
+.bottom {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 7px 28px;
+    border: none;
     border-radius: 8px;
     font-weight: 600;
     margin-top: 10px;
+}
+
+.bottom {
+    border: solid white;
+    margin: 0;
+    padding: 11px 36px;
 }
 
 .top-left {
@@ -122,3 +130,20 @@ h3 {
     font-weight: 800;
 }
 
+.another {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #3882f6;
+    padding: 50px 90px;
+    border-radius: 20px;
+    width: 800px;
+}
