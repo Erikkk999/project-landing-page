@@ -56,7 +56,7 @@ h1 {
 
 h2 {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #bebebe;
 }
 
 button {
@@ -68,7 +68,38 @@ button {
     margin-top: 10px;
 }
 
-.left {
+.top-left {
     width: 530px;
+}
+
+.head-pic {
+    width: 500px;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.info {
+    width: 200px;
+    font-weight: 600;
+}
+
+.pics {
+    border-radius: 20px;
+    border: solid #3882f6;
+    border-width: 3px;
 }
 
