@@ -10,12 +10,17 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header, .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 150px;
     background-color: #1f2937;
+}
+
+.footer {
+    color: white;
+    justify-content: center;
 }
 
 .logo {
@@ -98,6 +103,7 @@ h3 {
     justify-content: center;
     text-align: center;
     gap: 50px;
+    padding-bottom: 50px;
 }
 
 .info {
@@ -116,7 +122,7 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    height: 350px;
+    height: 450px;
 }
 
 .quote {
