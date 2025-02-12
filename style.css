@@ -39,6 +39,7 @@ ul {
 
 
 a {
+    text-wrap: nowrap;
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -46,11 +47,12 @@ a {
 
 .top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
-    height: 350px;
     padding: 20px 150px;
+    
 }
 
 h1 {
@@ -82,7 +84,9 @@ button,
 }
 
 .top-left {
-    width: 530px;
+    width: 500px;
+    min-width: 500px;
+    
 }
 
 .head-pic {
@@ -100,6 +104,7 @@ h3 {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     gap: 50px;
@@ -145,6 +150,7 @@ h3 {
 
 .action {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     color: white;
